@@ -6,6 +6,6 @@ services:
     container_name: taglit-app
     command: python app.py
     volumes:
-      - ./flask:/flask
+      - ./:/flask
     ports:
       - "80:80"
