@@ -1,8 +1,8 @@
 # taglit-app
 [![Python application](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml)
-
-
-
+    
+    
+    
 <img src="https://repository-images.githubusercontent.com/499586246/38170fd1-1ae3-45be-8d70-5f919e9e25fe" width="512"/>
 
 
