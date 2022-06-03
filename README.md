@@ -1,5 +1,5 @@
 # taglit-app
-[![Python application](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml/badge.svg?branch=shukontop-patch-1)](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml)
+[![Python application](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml)
 
 
 
