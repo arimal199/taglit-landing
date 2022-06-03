@@ -8,6 +8,8 @@
 
 hosted on Heroku
 
+https://taglit-collab.herokuapp.com/
+
 App for Taglit instructors to replace headcount of the group members with an attendance tracker.     
 
 
