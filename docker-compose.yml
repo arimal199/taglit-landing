@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  flask:
+    build: .
+    image: localhost/taglit-app
+    container_name: taglit-app
+    command: python app.py
+    volumes:
+      - ./flask:/flask
+    ports:
+      - "8080:80"
+    #environment:
+    #depends_on:
+
