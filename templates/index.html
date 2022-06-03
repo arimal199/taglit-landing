@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Taglit App's landing page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -48,14 +48,9 @@ img {margin-bottom: -8px;}
 <!-- Clarity Section -->
 <div class="w3-padding-64 w3-light-grey">
   <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="/w3images/app5.jpg" alt="App" width="335" height="471">
-    </div>
     <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Taglit app</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Pixels, who?</b></h1>
-      <p><span class="w3-xlarge">A revolution in taglit tours.</span> No more repetitive counting of your team, each hour time by time and one by one.incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <h1 class="w3-xxxlarge w3-text-red"><b>What? they used to shout out numbers?</b></h1>
+      <p><span class="w3-xlarge">A revolution in taglit tours.</span> No more repetitive counting of your team, each hour time by time and one by one. incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
   </div>
 </div>
@@ -80,14 +75,14 @@ img {margin-bottom: -8px;}
       <p>Global</p>
   </div>
     <div class="w3-col s3">
-      <i class="fa fa-wifi w3-text-grey w3-jumbo"></i>
+      <i class="fa fa-wifi w3-text-blue w3-jumbo"></i>
       <p>Connected</p>
     </div>
   </div>
 </div>
 
 <!-- Pricing Section -->
-<div class="w3-padding-64 w3-center w3-white">
+<div class="w3-container w3-padding-64 w3-white">
   <h1 class="w3-jumbo"><b>Pricing</b></h1>
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:64px">
@@ -129,30 +124,9 @@ img {margin-bottom: -8px;}
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-jumbo">
   <div class="w3-section">
     <a class="fa fa-github w3-hover-opacity" href="https://github.com/arimal199/taglit-app" style="text-decoration:none" aria-hidden="true" target=”_blank”></a>
+    <a class="fa fa-whatsapp w3-hover-opacity w3-text-green" href="https://bit.ly/cc-taglit-whatsapp" style="text-decoration:none" aria-hidden="true" target=”_blank”></a>
   </div>
-  <p class="w3-medium">Powered by <a class="w3-hover-text-green" href="https://bit.ly/cc-taglit-whatsapp" style="text-decoration:none" aria-hidden="true" target=”_blank”>Computerization Collabs team</a></p>
+  <p class="w3-medium">Powered by <a class="w3-hover-text-green">Computerization Collabs team</a></p>
 </footer>
-
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
 </body>
 </html>
