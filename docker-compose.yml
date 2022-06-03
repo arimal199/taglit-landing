@@ -8,7 +8,4 @@ services:
     volumes:
       - ./flask:/flask
     ports:
-      - "8080:80"
-    #environment:
-    #depends_on:
-
+      - "80:80"
