@@ -1,4 +1,4 @@
-# taglit-app
+# taglit-landing
 [![Python application](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/arimal199/taglit-app/actions/workflows/python-app.yml)
     
     
